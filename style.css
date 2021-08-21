@@ -1,21 +1,43 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
 
 body {
   background-color: black;
+  font-family: 'Lato', sans-serif;
+}
+.navbar a:hover {
+  color: yellow  !important;
+}
+.nav-item {
+  margin-left: 5%;
+}
+
+.bi:hover {
+  color: yellow;
 }
 
 .home {
-  padding-left: 5%;
-  padding-top: 5%;
-  background: url("img/foto-Maurizio.jpg");
+  width: 100%;
+  height: 700px;
+  background: url(img/foto-maurizio-bw-2.jpg);
   background-size: cover;
-  height: 650px;
 }
-.home h1 {
-  font-size: 5em;
-  color: white;
-  margin-top: 50%;
-  font-family: "Roboto";
-  font-weight: 400;
+
+
+ .home h1 {
+   color: white;
+   margin-top: 35%;
+   font-weight: 700;
+ }
+
+ .home h2 {
+   color: #e6e6e6;
+   margin-top: 5%;
+   font-family: "Open Sans";
+   font-weight: 300;
+ }
+
+.home button {
+  margin-top: 5%;
 }
