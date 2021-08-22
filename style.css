@@ -41,3 +41,34 @@ body {
 .home button {
   margin-top: 5%;
 }
+
+.seo {
+  color: white;
+  height: 700px;
+}
+.seo h2 {
+  margin-top: 6%;
+  font-weight: 400;
+}
+
+.seo h3 {
+  margin-top: 5%;
+}
+
+.seo p {
+  text-align: justify;
+  font-family: "Open Sans";
+  font-weight: 300;
+}
+
+.seo a:hover, .seo a:visited:hover {
+  color: yellow;
+}
+
+.seo a:visited {
+  color: white;
+}
+
+.giallo {
+  color: yellow;
+}
