@@ -7,17 +7,17 @@ body {
   font-family: 'Lato', sans-serif;
 }
 .navbar a:hover {
-  color: yellow  !important;
+  color: #FFCA2C  !important;
 }
 .nav-item {
   margin-left: 5%;
 }
 
 .bi:hover {
-  color: yellow;
+  color: #FFCA2C;
 }
 
-.home {
+.sezione-home {
   width: 100%;
   height: 700px;
   background: url(img/foto-maurizio-bw-2.jpg);
@@ -25,50 +25,68 @@ body {
 }
 
 
- .home h1 {
+ .sezione-home h1 {
    color: white;
    margin-top: 35%;
    font-weight: 700;
  }
 
- .home h2 {
+ .sezione-home h2 {
    color: #e6e6e6;
    margin-top: 5%;
    font-family: "Open Sans";
    font-weight: 300;
  }
 
-.home button {
+.sezione-home button {
   margin-top: 5%;
 }
 
-.seo {
+.sezione-seo, .sezione-chi-sono, .sezione-contatti {
   color: white;
   height: 700px;
 }
-.seo h2 {
+.sezione-seo h2, .sezione-chi-sono h2, .sezione-contatti h2 {
   margin-top: 6%;
   font-weight: 400;
 }
 
-.seo h3 {
+.sezione-seo h3 {
   margin-top: 5%;
 }
 
-.seo p {
+.sezione-seo p, .sezione-chi-sono p {
   text-align: justify;
   font-family: "Open Sans";
   font-weight: 300;
 }
 
-.seo a:hover, .seo a:visited:hover {
-  color: yellow;
+.sezione-seo a:hover, .sezione-seo a:visited:hover, .sezione-chi-sono a:hover,
+.sezione-chi-sono a:visited:hover {
+  color: #FFCA2C;
 }
 
-.seo a:visited {
+.sezione-seo a:visited, .sezione-chi-sono a:visited {
   color: white;
 }
 
 .giallo {
-  color: yellow;
+  color: #FFCA2C;
+}
+
+.sezione-chi-sono h3, .sezione-contatti h3 {
+  margin-top: 3%;
+  font-weight: 400;
+}
+
+.table {
+  font-family: "Open Sans";
+  text-align: center;
+  color: white;
+  border-color: black;
+}
+
+thead {
+  text-align: center;
+  color: #FFCA2C;
 }
