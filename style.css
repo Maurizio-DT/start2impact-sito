@@ -5,6 +5,8 @@
 body {
   background-color: black;
   font-family: 'Lato', sans-serif;
+  position: relative;
+  color: white;
 }
 .navbar a:hover {
   color: #FFCA2C  !important;
@@ -94,3 +96,65 @@ thead {
 .form-group {
   margin-top: 2%;
 }
+
+.sezione-blog {
+  height: 700px;
+}
+
+.sezione-blog h1 {
+  margin-top: 7%;
+  color: white;
+  text-align: center;
+  font-size: 3em;
+  font-family: 'Lato', sans-serif;
+}
+
+.sezione-blog h4 {
+  text-align: center;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1.3em;
+}
+
+.card .btn {
+  background: #FFCA2C;
+}
+
+.articoli {
+  margin-top: 5%;
+}
+
+.active {
+  color: #FFCA2C !important;
+}
+
+/* STILE PER GLI ARTICOLI */
+
+.articolo h1 {
+  font-size: 2em;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  margin-top: 7%;
+  text-align: center;
+}
+
+.articolo h2 {
+  margin-top: 2%;
+  font-size: 1em;
+  text-align: center;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+
+ol {
+  counter-reset: item;
+ }
+
+li {
+  display: block;
+ }
+
+ /* MEDIA QUERIES */
