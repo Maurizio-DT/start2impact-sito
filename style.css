@@ -185,7 +185,9 @@ li {
    background-image: url(img/foto-maurizio-portrait.jpg);
    background-size: cover;
  }
-
+ .sezione-seo {
+   height: 700px;
+ }
  .sezione-seo h2, .sezione-chi-sono h2, .sezione-contatti h2 {
    margin-top: 6%;
    font-size: 1.5em;
