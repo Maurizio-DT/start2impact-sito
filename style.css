@@ -20,7 +20,7 @@ body {
 }
 
 .sezione-home {
-  width: 100%;
+  width: 100vw;
   height: 700px;
   background: url(img/foto-maurizio-bw-2.jpg);
   background-size: cover;
@@ -29,7 +29,7 @@ body {
 
  .sezione-home h1 {
    color: white;
-   margin-top: 35%;
+   margin-top: 25%;
    font-weight: 700;
  }
 
@@ -44,9 +44,15 @@ body {
   margin-top: 5%;
 }
 
+.sezione-home button a {
+  text-decoration: none;
+  color: black;
+}
+
 .sezione-seo, .sezione-chi-sono, .sezione-contatti {
   color: white;
   height: 700px;
+  width: 100vw;
 }
 .sezione-seo h2, .sezione-chi-sono h2, .sezione-contatti h2 {
   margin-top: 6%;
