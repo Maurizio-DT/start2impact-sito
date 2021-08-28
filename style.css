@@ -74,6 +74,12 @@ body {
 }
 
 a {
+  color: white;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: white;
   text-decoration: underline;
 }
 .sezione-seo p, .sezione-chi-sono p {
