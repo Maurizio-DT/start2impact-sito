@@ -73,6 +73,9 @@ body {
   margin-top: 5%;
 }
 
+a {
+  text-decoration: underline;
+}
 .sezione-seo p, .sezione-chi-sono p {
   text-align: justify;
   font-family: "Open Sans";
