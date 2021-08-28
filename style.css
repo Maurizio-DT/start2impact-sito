@@ -21,7 +21,10 @@ body {
 .nav-item {
   margin-left: 5%;
 }
-
+.bi {
+  color: white;
+  opacity:0.75;
+}
 .bi:hover {
   color: #FFCA2C;
 }
@@ -58,8 +61,8 @@ body {
 
 .sezione-seo, .sezione-chi-sono, .sezione-contatti {
   color: white;
-  height: 700px;
-  width: auto%;
+  height: auto;
+  width: auto;
 }
 .sezione-seo h2, .sezione-chi-sono h2, .sezione-contatti h2 {
   margin-top: 6%;
@@ -105,13 +108,27 @@ thead {
   text-align: center;
   color: #FFCA2C;
 }
+td {
+  text-align: left;
+}
 
+th {
+  border-bottom: 1px solid #FFCA2C;
+  font-family: 'Lato', sans-serif;
+}
+
+table a {
+  color: white;
+}
+table a:hover, a:visited {
+  color: #FFCA2C;
+}
 .form-group {
   margin-top: 2%;
 }
 
 .sezione-blog {
-  height: 700px;
+  height: auto;
 }
 
 .sezione-blog h1 {
@@ -144,7 +161,7 @@ thead {
 
 /* STILE PER GLI ARTICOLI */
 
-.articolo h1 {
+article h1 {
   font-size: 2em;
   font-family: 'Lato', sans-serif;
   color: white;
@@ -152,45 +169,161 @@ thead {
   text-align: center;
 }
 
-.articolo h2 {
+
+article h2 {
   margin-top: 2%;
-  font-size: 1em;
-  text-align: center;
+  font-size: 2em;
   color: white;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
 }
 
 
-ol {
+article h3 {
+  color: #FFCA2C;
+  font-size: 1.3em;
+  font-family: 'Open Sans',sans-serif;
+}
+
+q {
+  font-style: italic;
+}
+.lead {
+  text-align: center;
+}
+
+.indice  {
   counter-reset: item;
  }
 
-li {
+.indice li {
   display: block;
  }
+
+.card {
+  margin-top: 2%;
+}
+
+article a {
+  color: white;
+}
+
+article a:hover {
+    color: #FFCA2C;
+}
+
+article img {
+  border-radius: 12px;
+}
+
+/* STYLE FOOTER */
+
+ .footer-basic {
+  padding:40px 0;
+  margin-top: 2%;
+  background-color:#212529;
+  color: grey;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  color: #FFCA2C;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  margin:0 8px;
+  color: white;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
 
  /* MEDIA QUERIES */
  @media screen and (max-width: 480px) {
   .sezione-home h1 {
-   margin-top: 18%;
-   font-size: 2.5em;
+   margin-top: 25%;
+   font-size: 2.6em;
  }
 
  .sezione-home h2 {
    font-size: 1.5em;
  }
  .sezione-home {
-   height: 400px;
+   height: 700px;
    background-image: url(img/foto-maurizio-portrait.jpg);
    background-size: cover;
+
  }
- .sezione-seo {
-   height: 700px;
+ .sezione-seo, .sezione-chi-sono {
+   height: auto;
  }
  .sezione-seo h2, .sezione-chi-sono h2, .sezione-contatti h2 {
    margin-top: 6%;
-   font-size: 1.5em;
+   font-size: 1.7em;
    font-weight: 400;
  }
+ .sezione-seo h3, .sezione-chi-sono h3, .sezione-contatti h3 {
+   font-size: 1.2em;
+ }
+
+ article h1 {
+   margin-top: 20%;
+   font-size: 1.5em;
+ }
+
+article img {
+  margin-left: 3%;
+}
+
+article h2 {
+  margin-left: 6%;
+  font-size: 1.5em;
+}
+.lead {
+  font-size: 1em;
+  margin-left: 6%;
+}
+
+article p {
+  font-family: 'Open Sans', sans-serif;
+}
+
 }
